@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PintoVet Veterinarios — Clínica veterinaria en Pinto, Madrid. Cirugía, urgencias, rehabilitación, peluquería canina y mucho más." />
+  <title>PintoVet Veterinarios — Pinto, Madrid</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Nunito:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#inicio" class="navbar__logo">
+        <img src="assets/logo.png" alt="PintoVet Veterinarios" />
+      </a>
+
+      <nav class="navbar__links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#cita">Pedir cita</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a href="tel:910702888" class="navbar__phone">
+        <i class="fas fa-phone"></i>
+        <span>910 702 888</span>
+      </a>
+
+      <button class="navbar__burger" id="burger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="inicio">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <p class="hero__eyebrow"><i class="fas fa-paw"></i> Clínica veterinaria en Pinto, Madrid</p>
+      <h1 class="hero__title">El cuidado que tu mascota<br /><span>merece y necesita</span></h1>
+      <p class="hero__subtitle">Más de 15 especialidades bajo un mismo techo, con el cariño y la profesionalidad que tu familia peluda se merece.</p>
+      <div class="hero__ctas">
+        <a href="#cita" class="btn btn--primary">
+          <i class="fas fa-calendar-check"></i> Pedir cita
+        </a>
+        <a href="tel:645694098" class="btn btn--urgent">
+          <i class="fas fa-ambulance"></i> Urgencias: 645 694 098
+        </a>
+      </div>
+    </div>
+    <div class="hero__wave">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#fff" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ========== BAND URGENCIAS ========== -->
+  <div class="urgency-band">
+    <div class="container urgency-band__inner">
+      <i class="fas fa-clock"></i>
+      <strong>Urgencias sin cita previa</strong>
+      <span>—</span>
+      <a href="tel:645694098">645 694 098</a>
+      <span class="sep">|</span>
+      <i class="fas fa-map-marker-alt"></i>
+      <span>C. Alfaro, 16 · Pinto, Madrid</span>
+    </div>
+  </div>
+
+  <!-- ========== NOSOTROS ========== -->
+  <section class="about" id="nosotros">
+    <div class="container about__grid">
+      <div class="about__img">
+        <img src="assets/foto2.jpg" alt="Veterinario atendiendo a un cachorro en PintoVet" class="about__photo" />
+      </div>
+      <div class="about__text">
+        <p class="section-eyebrow">Quiénes somos</p>
+        <h2 class="section-title">Una clínica con corazón</h2>
+        <p>En <strong>PintoVet</strong> tratamos a cada animal como si fuera el nuestro. Nuestro equipo de veterinarios especializados combina tecnología de vanguardia con el trato más cercano y humano para que tú y tu mascota os sintáis en casa.</p>
+        <p>Ofrecemos más de <strong>15 especialidades</strong> y atención de urgencias sin cita previa, porque sabemos que los animales no esperan.</p>
+        <div class="about__badges">
+          <div class="badge"><i class="fas fa-user-md"></i><span>Equipo especializado</span></div>
+          <div class="badge"><i class="fas fa-microscope"></i><span>Tecnología avanzada</span></div>
+          <div class="badge"><i class="fas fa-heart"></i><span>Trato cercano</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICIOS ========== -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <p class="section-eyebrow text-center">Lo que hacemos</p>
+      <h2 class="section-title text-center">Nuestros servicios</h2>
+      <p class="section-subtitle text-center">Todo lo que tu mascota puede necesitar, en un solo lugar.</p>
+
+      <div class="services__grid">
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-scalpel"></i></div>
+          <h3>Cirugía general</h3>
+          <p>Intervenciones quirúrgicas con los más altos estándares de seguridad y cuidado postoperatorio.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-flask"></i></div>
+          <h3>Analíticas</h3>
+          <p>Laboratorio propio para análisis de sangre, orina y más, con resultados rápidos y precisos.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-bone"></i></div>
+          <h3>Traumatología</h3>
+          <p>Diagnóstico y tratamiento de fracturas, luxaciones y lesiones del aparato locomotor.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-x-ray"></i></div>
+          <h3>Rayos X</h3>
+          <p>Diagnóstico por imagen digital para una visión completa de la salud interna de tu mascota.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-wave-square"></i></div>
+          <h3>Ecografía</h3>
+          <p>Exploración no invasiva de órganos internos para un diagnóstico preciso y sin dolor.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-hospital"></i></div>
+          <h3>Hospitalización</h3>
+          <p>Seguimiento 24h con cuidados intensivos para que tu mascota se recupere en las mejores condiciones.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-dumbbell"></i></div>
+          <h3>Rehabilitación</h3>
+          <p>Fisioterapia y terapias de recuperación personalizadas para mejorar la calidad de vida.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-cut"></i></div>
+          <h3>Peluquería canina</h3>
+          <p>Baño, corte, peinado y cuidado estético profesional para que luzcan siempre perfectos.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-apple-alt"></i></div>
+          <h3>Nutrición</h3>
+          <p>Asesoramiento nutricional personalizado para una alimentación sana y equilibrada.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-stethoscope"></i></div>
+          <h3>Medicina interna</h3>
+          <p>Diagnóstico y tratamiento de enfermedades sistémicas y crónicas con seguimiento continuo.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-microscope"></i></div>
+          <h3>Endoscopia</h3>
+          <p>Exploración mínimamente invasiva del sistema digestivo y respiratorio.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-tooth"></i></div>
+          <h3>Odontología</h3>
+          <p>Limpieza dental, extracciones y tratamientos bucodentales para una sonrisa sana.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-heartbeat"></i></div>
+          <h3>Cardiología</h3>
+          <p>Electrocardiogramas y ecocardiografías para el cuidado del corazón de tu mascota.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-water"></i></div>
+          <h3>Hidroterapia</h3>
+          <p>Terapia acuática para la rehabilitación y el bienestar físico y mental.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-allergies"></i></div>
+          <h3>Dermatología</h3>
+          <p>Diagnóstico y tratamiento de alergias, infecciones y enfermedades cutáneas.</p>
+        </div>
+
+        <div class="service-card service-card--urgent">
+          <div class="service-card__icon"><i class="fas fa-ambulance"></i></div>
+          <h3>Urgencias</h3>
+          <p>Sin cita previa. Atención inmediata cuando más nos necesitas.</p>
+          <a href="tel:645694098" class="service-card__link">Llamar ahora →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERÍA ========== -->
+  <section class="gallery">
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--tall">
+        <img src="assets/foto1.jpg" alt="Perro en PintoVet" />
+      </div>
+      <div class="gallery__item">
+        <img src="assets/foto2.jpg" alt="Veterinario con cachorro en PintoVet" />
+      </div>
+      <div class="gallery__item">
+        <img src="assets/foto3.jpg" alt="Perro en PintoVet" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CITA PREVIA ========== -->
+  <section class="appointment" id="cita">
+    <div class="appointment__wave-top">
+      <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,30 C480,60 960,0 1440,30 L1440,0 L0,0 Z" fill="#fff" />
+      </svg>
+    </div>
+
+    <div class="container appointment__grid">
+      <div class="appointment__info">
+        <p class="section-eyebrow section-eyebrow--light">Sin esperas innecesarias</p>
+        <h2 class="section-title section-title--light">Pide tu cita online</h2>
+        <p>Rellena el formulario y nos ponemos en contacto contigo para confirmar la cita en el horario que mejor te venga.</p>
+        <ul class="appointment__features">
+          <li><i class="fas fa-check-circle"></i> Confirmación en menos de 24h</li>
+          <li><i class="fas fa-check-circle"></i> Más de 15 especialidades disponibles</li>
+          <li><i class="fas fa-check-circle"></i> Urgencias sin cita previa</li>
+        </ul>
+      </div>
+
+      <form class="appointment__form" id="appointmentForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="ownerName">Tu nombre *</label>
+            <input type="text" id="ownerName" name="ownerName" placeholder="María García" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Teléfono *</label>
+            <input type="tel" id="phone" name="phone" placeholder="612 345 678" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="maria@ejemplo.com" />
+          </div>
+          <div class="form-group">
+            <label for="petName">Nombre de tu mascota *</label>
+            <input type="text" id="petName" name="petName" placeholder="Luna" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="service">Servicio *</label>
+            <select id="service" name="service" required>
+              <option value="">Selecciona un servicio</option>
+              <option>Cirugía general</option>
+              <option>Analíticas</option>
+              <option>Traumatología</option>
+              <option>Rayos X</option>
+              <option>Ecografía</option>
+              <option>Hospitalización</option>
+              <option>Rehabilitación</option>
+              <option>Peluquería canina</option>
+              <option>Nutrición</option>
+              <option>Medicina interna</option>
+              <option>Endoscopia</option>
+              <option>Odontología</option>
+              <option>Cardiología</option>
+              <option>Hidroterapia</option>
+              <option>Dermatología</option>
+              <option>Consulta general</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="date">Fecha preferida</label>
+            <input type="date" id="date" name="date" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Cuéntanos más (opcional)</label>
+          <textarea id="message" name="message" rows="3" placeholder="Describe brevemente el motivo de la consulta..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--form">
+          <i class="fas fa-paper-plane"></i> Solicitar cita
+        </button>
+
+        <div class="form-success" id="formSuccess">
+          <i class="fas fa-check-circle"></i>
+          <strong>¡Solicitud enviada!</strong> Nos pondremos en contacto contigo en menos de 24 horas.
+        </div>
+      </form>
+    </div>
+
+    <div class="appointment__wave-bottom">
+      <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,30 C480,0 960,60 1440,30 L1440,60 L0,60 Z" fill="#fff" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTO ========== -->
+  <section class="contact" id="contacto">
+    <div class="container contact__grid">
+
+      <div class="contact__info">
+        <p class="section-eyebrow">Encuéntranos</p>
+        <h2 class="section-title">Dónde estamos</h2>
+
+        <div class="contact__item">
+          <div class="contact__icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <strong>Dirección</strong>
+            <p>C. Alfaro, 16<br />28320 Pinto, Madrid</p>
+          </div>
+        </div>
+
+        <div class="contact__item">
+          <div class="contact__icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <strong>Teléfono</strong>
+            <p><a href="tel:910702888">910 702 888</a></p>
+          </div>
+        </div>
+
+        <div class="contact__item contact__item--urgent">
+          <div class="contact__icon"><i class="fas fa-ambulance"></i></div>
+          <div>
+            <strong>Urgencias (sin cita)</strong>
+            <p><a href="tel:645694098">645 694 098</a></p>
+          </div>
+        </div>
+
+        <div class="contact__item">
+          <div class="contact__icon"><i class="fab fa-facebook-f"></i></div>
+          <div>
+            <strong>Facebook</strong>
+            <p><a href="https://facebook.com/PintoVet" target="_blank" rel="noopener">facebook.com/PintoVet</a></p>
+          </div>
+        </div>
+
+        <div class="contact__hours">
+          <h3><i class="fas fa-clock"></i> Horario</h3>
+          <div class="hours-grid">
+            <span>Lunes – Viernes</span><span>9:00 – 21:00</span>
+            <span>Sábado</span><span>9:30 – 14:00</span>
+            <span>Urgencias</span><span>24 h · 365 días</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.5!2d-3.707!3d40.237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCalle+Alfaro+16+Pinto+Madrid!5e0!3m2!1ses!2ses!4v1600000000000"
+          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Ubicación PintoVet">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="logo-placeholder logo-placeholder--sm">
+          <i class="fas fa-paw"></i>
+          <span>PintoVet</span>
+        </div>
+        <p>Cuidando a tu familia peluda con amor y profesionalidad.</p>
+      </div>
+
+      <div class="footer__links">
+        <h4>Navegación</h4>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#cita">Pedir cita</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <div class="footer__contact">
+        <h4>Contacto</h4>
+        <p><i class="fas fa-map-marker-alt"></i> C. Alfaro, 16 · Pinto, Madrid</p>
+        <p><i class="fas fa-phone"></i> <a href="tel:910702888">910 702 888</a></p>
+        <p><i class="fas fa-ambulance"></i> <a href="tel:645694098">645 694 098</a> (urgencias)</p>
+        <a href="https://facebook.com/PintoVet" target="_blank" rel="noopener" class="footer__social">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2026 PintoVet Veterinarios · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
